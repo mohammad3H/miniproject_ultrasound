@@ -5,6 +5,6 @@ class Medium():
 		self.longitudinal_velocity = longitudinal_velocity
 		self.shear_velocity = shear_velocity
 	def get_longitudinal_impedance(self) -> float:
-		return self.density * self.longitudinal_velocity
+		return self.density.value * self.longitudinal_velocity.value
 	def get_shear_impedance(self) -> float : 
-		return self.density*self.shear_velocity
+		return self.density.value*self.shear_velocity.value

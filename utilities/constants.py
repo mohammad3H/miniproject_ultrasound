@@ -104,3 +104,7 @@ class Shear_velocity(Enum):
 	Wood_oak_with_grain = 1750
 	Wood_oak_against_grain = 1460
 	Zinc =2410
+
+class PropagationMode(Enum):
+	Longitudinal = 'longitudinal'
+	Shear = 'shear'
