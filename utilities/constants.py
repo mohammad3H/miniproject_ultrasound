@@ -35,7 +35,7 @@ class Density(Enum):
 	Wood_oak_against_grain = 0.4615
 	Zinc = 7.1
 
-class Longitudinal_velocity(Enum):
+class LongitudinalVelocity(Enum):
 	Air = 330
 	Aluminum = 6250
 	Beryllium =12800
@@ -70,7 +70,7 @@ class Longitudinal_velocity(Enum):
 	Wood_oak_against_grain = 1630
 	Zinc = 4170
 
-class Shear_velocity(Enum):
+class ShearVelocity(Enum):
 	Air = None
 	Aluminum = 3100
 	Beryllium = 8710
