@@ -43,3 +43,10 @@ def get_air_solid_sorted_interfaces():
 		interfaces.append(MediumsInterface(air, medium, PropagationMode.Longitudinal))
 	return interfaces
 
+def get_solid_air_sorted_interfaces():
+	air = get_air()
+	interfaces = []
+	mediums = get_sorted_medium_list()
+	for medium in mediums:
+		interfaces.append(MediumsInterface(medium, air, PropagationMode.Longitudinal))
+	return interfaces
