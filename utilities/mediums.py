@@ -13,6 +13,10 @@ class Medium():
 		return self.name
 	def get_density(self) -> float:
 		return self.density
+	def get_shear_velocity(self):
+		return self.shear_velocity
+	def get_longitudinal_velocity(self):
+		return self.longitudinal_velocity
 
 # this function will return a list of mediums that have non null properties
 def get_mediums_list():
